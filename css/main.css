@@ -766,6 +766,13 @@ body {
   #about .wave {
     top: -3rem;
   }
+  #contact .contact-form .contact-input {
+    margin-bottom: 0;
+  }
+  #contact {
+    height: 100vh;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -785,12 +792,19 @@ body {
   #projects {
     height: 100vh;
   }
+  #contact .contact-form .contact-title {
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 390px) {
   #about #about-description .about-image-container {
     height: 200px;
     width: 200px;
+    border-radius: 50%;
+  }
+  #contact {
+    height: 120vh;
   }
 }
 /*# sourceMappingURL=main.css.map */
