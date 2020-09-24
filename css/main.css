@@ -766,8 +766,8 @@ body {
   #about .wave {
     top: -3rem;
   }
-  #contact .contact-form .contact-input {
-    margin-bottom: 0;
+  #contact .contact-form .contact-input button {
+    margin-top: 0;
   }
   #contact {
     height: 100vh;
