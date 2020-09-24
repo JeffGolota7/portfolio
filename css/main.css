@@ -766,6 +766,10 @@ body {
   #about .wave {
     top: -3rem;
   }
+  #contact .contact-form .contact-title {
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
   #contact .contact-form .contact-input button {
     margin-top: 0;
   }
