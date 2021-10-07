@@ -675,8 +675,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 100%;
-    margin: 50px;
+    margin: 10px;
+    width: 95%;
     padding: 1rem;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -809,6 +809,30 @@ body {
   }
   #contact {
     height: 120vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #landing {
+    height: 50vh;
+  }
+  #landing #landing-content #landing-logo {
+    width: 70%;
+  }
+  #landing #landing-content #landing-logo-container h1 {
+    font-size: 30px;
+  }
+  #landing #landing-content #landing-links li {
+    font-size: 15px;
+  }
+  #about #about-title,
+  #projects #projects-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  #contact .contact-form .contact-title {
+    font-size: 30px;
+    margin-bottom: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
