@@ -6,6 +6,9 @@
           box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+html {
+  background-color: #4f5454;
+}
 
 a {
   color: black;
