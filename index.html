@@ -11,7 +11,7 @@
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
     crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet" />
-  <link rel="icon" href="j7.svg" type="image/svg+xml">
+  <link rel="icon" href="img/j7.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/main.css" />
 </head>
 
@@ -103,7 +103,7 @@
     <span class="bounce"><i class="fas fa-chevron-down"></i></span>
   </div>
   <div id="projects">
-    <img src="img/Polygon 1.png" alt="polygon" class="triangle" />
+    <!-- <img src="img/Polygon 1.png" alt="polygon" class="triangle" />
     <h1 id="projects-title"><span>-</span>PROJECTS<span>-</span></h1>
     <div id="project-display">
       <div class="project-1" id="project-item">
@@ -118,7 +118,7 @@
         <div class="thumbnail"></div>
         <h3>PROJECT 3</h3>
       </div>
-    </div>
+    </div> -->
   </div>
   <div id="about">
     <img src="img/Path 1.png" alt="wave" class="wave" />
@@ -165,7 +165,15 @@
       </div>
     </form>
   </div>
-  <script src="app.js"></script>
+  <script src="js/app.js"></script>
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+  <script type="text/babel" src="js/projects.js"></script>
+
+  <script type="text/babel">
+    ReactDOM.render(<Projects />, document.querySelector('#projects'))
+  </script>
 </body>
 
 </html>
